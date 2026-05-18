@@ -40,6 +40,7 @@ size constraints (~5GB).
 
 After downloading, organize files under `./data/` in the following
 structure:
+```
 data/
 ├── 全部_2018/
 │   ├── 三義_2018.csv
@@ -50,9 +51,11 @@ data/
 │   └── 103年 高屏空品區/
 │       └── 103年小港站_20170317.xls
 └── ...
+```
 ---
 
 ## Project Structure
+```
 .
 ├── data/                        # Raw data (not tracked by git)
 ├── figures/                     # Generated plots (not tracked by git)
@@ -71,7 +74,7 @@ data/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Pipeline Execution Order
