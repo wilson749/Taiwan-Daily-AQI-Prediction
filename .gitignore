@@ -1,0 +1,31 @@
+# ── 原始資料（體積過大，不上傳）──────────────────
+data/
+
+# ── 處理後資料集（可重新產生）────────────────────
+*.parquet
+*.csv
+!usable_station_years.csv
+!coverage_audit.csv
+
+# ── 產生的圖表（可重新產生）──────────────────────
+figures/
+
+# ── Python 虛擬環境 ──────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── 系統檔案 ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE 設定 ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
