@@ -31,8 +31,7 @@ substantially higher recall on hazardous AQI events.
 ## Data Source
 
 Raw data is sourced from the **Taiwan Ministry of Environment (MOENV)
-Open Data Platform** and is not included in this repository due to file
-size constraints (~5GB).
+Open Data Platform** and is included in this repository.
 
 - **Coverage**: 77 monitoring stations, 2016–2025
 - **Format**: CSV (2018–2025) and XLS (2016–2017)
